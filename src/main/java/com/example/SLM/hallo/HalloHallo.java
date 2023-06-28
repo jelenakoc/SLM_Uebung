@@ -4,6 +4,6 @@ import java.time.LocalDate;
 
 public class HalloHallo {
     public LocalTime getTime() {
-        return LocalTime.now();
+        return LocalTimee.now();
     }
 }
