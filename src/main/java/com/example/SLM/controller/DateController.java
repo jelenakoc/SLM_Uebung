@@ -13,15 +13,15 @@ import java.time.LocalTime;
 @RequestMapping("/api")
 public class DateController {
 
-    private final DateService dateService;
+    private final DateService dateServicee;
 
     @Autowired
     public DateController(DateService service) {
-        this.dateService = service;
+        this.dateServicee = service;
     }
     @GetMapping("/time")
     public LocalTime getTime() {
-        return dateService.getTime();
+        return dateServicee.getTime();
     }
 
     @GetMapping("/date")
